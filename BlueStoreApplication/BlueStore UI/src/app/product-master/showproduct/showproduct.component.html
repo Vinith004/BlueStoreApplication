@@ -1,0 +1,57 @@
+
+<div class="Grid-container">
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" id="pm-Addbtn"
+     data-toggle="modal" data-target="#exampleModalCenter"
+     (click)="addclick()" data-backdrop="static" data-keyboard="false">
+        Add Product <i class="fa-solid fa-circle-plus"></i>
+    </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">{{ModelTitle}}</h5>
+          <button type="button" class="close" 
+          data-dismiss="modal" aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <app-add-product [pro]="pro"></app-add-product>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <app-add-product></app-add-product> -->
+    <table class="table table-stripped">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Product Type</th>
+                <th>Option</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let items of ProductList">
+                <td>{{items.productName}}</td>
+                <td>{{items.price}}</td>
+                <td>{{items.description}}</td>
+                <td>{{items.productType}}</td>
+                <td>
+                    <button type="button"  data-toggle="modal" data-target="#exampleModalCenter"
+                    data-backdrop="static" data-keyboard="false"
+                    (click)="editClick(items)" style="margin-right: 3px" class="btn btn-warning">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+                    <button type="button" (click)="deleteClick(items)" class="btn btn-danger">
+                      <i class="fa-solid fa-trash"></i></button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

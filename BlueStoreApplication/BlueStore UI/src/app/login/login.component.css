@@ -1,0 +1,22 @@
+.LoginFormControl{
+    padding-top: 200px;
+    width: 420px;
+    height: 360px;
+    margin: auto;
+}
+
+.btn-contain{
+    text-align: center;
+}
+
+.Errormessage{
+    background: radial-gradient(#c10912, #d6dfe300);
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    transition: 0.3s;
+}
+
+/* .Tapbackground{
+    background-color: #13243691 !important;
+} */

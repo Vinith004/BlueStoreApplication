@@ -1,0 +1,23 @@
+<nav *ngIf="IsLoggedIn">
+    <div class="icon">Blue <b style="color:red">S</b>tore</div>
+    <div class="search_box">
+        <input id="se-input" (keyup)="inputListener($event)" type="search" placeholder="Search here.."/>
+        <span><i class="fas fa-search"></i></span>
+    </div>
+    <!-- <p id="se-no-results">No match found</p> -->
+    <ul id="se-myUL" *ngIf="filteredsearchdatalist[0].productName != '*'">
+        <li *ngFor="let item of filteredsearchdatalist"><a (click)="FindProduct(item)">{{item.productName}}</a></li>
+      </ul>
+    <ol>
+        <li><a title="Home"  routerLink="/Home"><i class="fa fa-house"></i></a></li>
+        <li><a  title="About" routerLink="/About"><i class="fa-solid fa-address-card"></i></a></li>
+        <li><a title="Shopping Cart" routerLink="/Cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <li *ngIf="usertype == 'Admin'"><a title="Add new products" routerLink="/ProductMaster"><i  class="fa-solid fa-cart-plus"></i></a></li>
+        <li><a href="#" title="LogOut" (click)="Logout()"><i  class="fa-solid fa-right-from-bracket"></i></a></li>
+    </ol>
+</nav>
+<router-outlet></router-outlet>
+
+<footer *ngIf="IsLoggedIn">
+    <div>© 2022 Chennai, Bluestore.com</div>
+  </footer>

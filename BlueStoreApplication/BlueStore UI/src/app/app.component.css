@@ -1,0 +1,36 @@
+#se-myUL{
+    position: absolute;
+    list-style-type: none;
+    top: 50px;
+    left: 420px;
+    height: 260px;
+    overflow: hidden;
+}
+
+#se-myUL li{
+    width: 380px;
+}
+
+#se-myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+
+  .hidden {
+    /* new ruleset for hiding elements */
+    display: none;
+  }
+  #se-myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+
+  .search_box span{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }

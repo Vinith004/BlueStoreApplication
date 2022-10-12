@@ -1,0 +1,93 @@
+<div class="Savecontent">
+    <form  #myForm="ngForm">
+        <div class="d-flex flex-row bd-highlight mb-3" >
+            <div class="form-froup row" style="width: 100%">
+                <div class="col-sm-12">
+                    <div class="row mt-3" >
+                        <label class="col-sm-4 col-form-label">Product Name</label>
+                        <div class="col-sm-7" style=" margin-right: 10px;">
+                            <input type="text" class="form-control" name="name" #name="ngModel" [(ngModel)]="productNameChild" required  placeholder="Enter Product">
+                        </div>                    
+                    </div>
+                    <div style="padding-left: 230px;">
+                           <span class="col-sm-4" *ngIf="name.invalid && name.touched">
+                            <span style="color: red">*Product Name is required</span>
+                        </span>
+                    </div>
+                    <div class="row mt-3" >
+                        <label class="col-sm-4 col-form-label">Price</label>
+                        <div class="col-sm-7" style=" margin-right: 10px;">
+                            <input type="text" class="form-control" name="price" #price="ngModel" required
+                             [(ngModel)]="priceChild" placeholder="Enter Price">
+                        </div>
+                      
+                    </div>
+                    <div style="padding-left: 230px;">
+                        <span class="col-sm-3" *ngIf="price.invalid && price.touched">
+                            <span style="color: red">*Price is required</span>
+                        </span>
+                    </div>
+                    <div class="row mt-3">
+                        <label class="col-sm-4 col-form-label">Description</label>
+                        <div class="col-sm-7" style=" margin-right: 10px;">
+                            <input type="text" class="form-control" name="description"  #description="ngModel" required
+                             [(ngModel)]="DescriptionChild"  placeholder="Enter Description">
+                        </div>
+                    
+                    </div>
+                    <div style="padding-left: 250px;">
+                        <span *ngIf="description.invalid && description.touched">
+                            <span style="color: red">*Description is required</span>
+                        </span>
+                    </div>
+                    <div class="row mt-3">
+                        <label class="col-sm-4 col-form-label">Product Type</label>
+                        <div class="col-sm-7" >
+                            <select class="form-select" [disabled]="productIDChild != 0" name="productType"  #productType="ngModel" required
+                             [(ngModel)]="productTypechild"> 
+                                <option value="">--select--</option>
+                                <option value="Mobiles">Mobiles</option>
+                                <option value="Grocery">Grocery</option>
+                                <option value="Appliances">Appliances</option>
+                                <option value="Beauty">Beauty</option>
+                                <option value="Travel">Travel</option>
+                                <option value="Fashion">Fashion</option>
+                            </select>
+                        </div>                  
+                    </div>    
+                    <div style="padding-left: 250px;">
+                        <span *ngIf="productType.invalid && productType.touched">
+                            <span style="color: red">*productType is required</span>
+                        </span>
+                    </div>  
+                </div>               
+            </div>
+            <div class="col-sm-4 bd-highlight" style="width:30%;    display: grid;">
+                <img [src]="photofilepathchild" width="200px" height="220px">
+                <input type="file" [disabled]="productIDChild != 0"   name="productPicFileName"  #productPicFileName="ngModel" required
+                [(ngModel)]="productPicFileNamechild" (change)="uploadPhoto($event)" class="mt-2">
+                <span *ngIf="productPicFileName.invalid && productPicFileName.touched">
+                    <span style="color: red">*Please upload image</span>
+                </span>
+            </div>
+       
+        </div>
+        <div style="text-align:center">
+            <div style="text-align: center;display: inline-block" *ngIf="productIDChild == 0" >
+                <button type="button" style="margin-right: 3px;width: 150px;" 
+                [disabled]="name.invalid || price.invalid || description.invalid || productType.invalid" 
+                (click)="addProduct(myForm)" class="btn btn-primary">Add</button>
+            </div>
+            <div style="text-align: center;display: inline-block" *ngIf="productIDChild != 0">
+                <button type="button" style="margin-right: 3px;width: 150px;" 
+                [disabled]="name.invalid || price.invalid || description.invalid || productType.invalid" 
+                (click)="UpdateClick(myForm)" class="btn btn-primary">Update</button>
+            </div>
+            <div style="text-align: center;display: inline-block;" *ngIf="productIDChild == 0">
+                <button type="button" style="margin-right: 3px;width: 150px;" (click)="CancelClick(myForm)" class="btn btn-primary">Reset</button>
+            </div>
+        </div>
+
+    </form>
+   
+</div>

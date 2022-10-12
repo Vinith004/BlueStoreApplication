@@ -1,0 +1,45 @@
+<div class="small-container card-page">
+    <table style="width: 100%" *ngIf="CartProductList.length != 0">
+        <tr>
+            <td> <table class="Cart-table">
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>SubTotal</th>
+                    <th>Remove</th>
+                </tr>
+                <tr *ngFor="let item of CartProductList; let i = index">
+                    <td style="width: 60%">
+                        <div class="cart-info">
+                            <img src="{{PhotoUrl+ item.productType +'/'+item.productFileName}}" width="200px" height="200px">
+                            <div>
+                                <p>{{item.productName}}</p>
+                                <small>price: ₹{{item.price}}</small>
+                               
+                            </div>
+                        </div>
+                    </td>
+                    <td><input style="width: 50px" type="number" id="qty{{i}}" (change)="Qty($event,i)" min="1" max="4" value="{{item.qty}}"></td>
+                    <td>₹{{item.qty * item.price}}</td>
+                    <td> <a  (click)="RemoveCart(item.shoppingId)"><button style="border-radius: 30px;
+                        cursor: pointer;font-size: 25px;padding: 10px;" class="Removebtn"><i class="fa-regular fa-trash-can"></i></button></a></td>
+                </tr>
+            </table></td>
+            <td style="width: 25%;vertical-align: top" colspan="10" >  
+                <table style="margin-top: 100px">
+                    <tr>
+                        <td class="tdtotal" style="width: 90%;    text-align: center;">
+                            <h5>Sub Total({{TotalQty}} item): ₹ {{TotalAmount}}</h5>
+                            <button type="button" (click)="GoToPurchase()" class="purchasebtn">Proceed To purchase</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                 
+                </table>
+            </td>
+        </tr>
+    </table>
+    <div style="text-align: center;" *ngIf="CartProductList.length == 0">
+        <img src="https://localhost:7044/Photos/Screenshot 2022-10-09 203859.png" alt="">
+    </div>
+</div>

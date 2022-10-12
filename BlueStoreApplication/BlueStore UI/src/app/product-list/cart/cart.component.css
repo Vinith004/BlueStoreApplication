@@ -1,0 +1,64 @@
+.small-container{
+    padding-top: 100px;
+}
+/* 
+.card-page{
+    margin: 80px auto;
+} */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-info div{
+    padding: 50px 5px;
+    font-size: large;
+}
+.cart-info div p{
+    margin-bottom: 0px;
+}
+.cart-info div a{
+    display: block;
+    cursor: pointer;
+    list-style: none !important;
+}
+.Cart-table tr th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background-color: #ff523b;
+    font-weight: normal;
+}
+.Cart-table tr td{
+    padding: 10px 5px;
+}
+.Cart-table tr td input{
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+
+.purchasebtn{
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: yellow;
+}
+.tdtotal{
+    background-color: bisque;
+    padding: 12px;
+    width: 250px;
+}
+
+.Removebtn{
+    background-color:bisque;;
+    border: none;
+    outline: none;
+    padding: 2px;
+}

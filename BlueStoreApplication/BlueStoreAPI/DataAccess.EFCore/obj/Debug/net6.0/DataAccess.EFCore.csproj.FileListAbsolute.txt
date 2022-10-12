@@ -1,0 +1,122 @@
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Domain.deps.json
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Domain.runtimeconfig.json
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Domain.exe
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\DataAccess.EFCore.exe
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\DataAccess.EFCore.deps.json
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\DataAccess.EFCore.runtimeconfig.json
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\DataAccess.EFCore.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\DataAccess.EFCore.pdb
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Domain.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\bin\Debug\net6.0\Domain.pdb
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.csproj.AssemblyReference.cache
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.AssemblyInfoInputs.cache
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.AssemblyInfo.cs
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.csproj.CoreCompileInputs.cache
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.csproj.CopyComplete
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\obj\Debug\net6.0\refint\DataAccess.EFCore.dll
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.pdb
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.genruntimeconfig.cache
+E:\CG-VAK\Vinith\Practice\.Net Core\BlueStore\BlueStore\DataAccess.EFCore\obj\Debug\net6.0\ref\DataAccess.EFCore.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Domain.deps.json
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Domain.runtimeconfig.json
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Domain.exe
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\DataAccess.EFCore.exe
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\DataAccess.EFCore.deps.json
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\DataAccess.EFCore.runtimeconfig.json
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\DataAccess.EFCore.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\DataAccess.EFCore.pdb
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Domain.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\bin\Debug\net6.0\Domain.pdb
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.csproj.AssemblyReference.cache
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.AssemblyInfoInputs.cache
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.AssemblyInfo.cs
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.csproj.CoreCompileInputs.cache
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.csproj.CopyComplete
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\obj\Debug\net6.0\refint\DataAccess.EFCore.dll
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.pdb
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\obj\Debug\net6.0\DataAccess.EFCore.genruntimeconfig.cache
+E:\CG-VAK\Publish\BlueStoreApplication\BlueStoreAPI\DataAccess.EFCore\obj\Debug\net6.0\ref\DataAccess.EFCore.dll

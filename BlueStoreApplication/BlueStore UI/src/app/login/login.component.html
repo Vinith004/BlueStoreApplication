@@ -1,0 +1,92 @@
+
+<div *ngIf="CredentialValidation" class="Errormessage" >
+  <span>{{CredentialValidation}}</span>
+</div>
+<div class="LoginFormControl">
+    
+<ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+    <li class="nav-item" role="presentation">
+      <a class="nav-link Tapbackground" id="tab-login" [ngStyle]="{cursor:'pointer'}" (click)="LoginTab()"
+      [ngClass]="{active:ActiveTabLogin}" 
+       >Login</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="tab-register" [ngStyle]="{cursor:'pointer'}" (click)="RegisterTab()"
+      [ngClass]="{active:ActiveTabRegister}" 
+         >Register</a>
+    </li>
+  </ul>
+  <!-- Pills navs -->
+  
+  <!-- Pills content -->
+  <div class="tab-content">
+    <div class="tab-pane fade" [ngClass]="{active:ActiveTabLogin,show:ActiveTabLogin}" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+      <form [formGroup]="LoginForm" (submit)="Login()">
+  
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="loginName">Email or username</label>
+          <input type="email" formControlName="UserName" id="loginName" placeholder="Email or username" class="form-control" />
+          <div *ngIf="UserNameL.invalid && UserNameL.touched">
+            <span *ngIf="UserNameL.errors?.required" style="color: red">*Please Enter UserName</span>
+          </div>
+        </div>
+  
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="loginPassword">Password</label>
+          <input type="password" formControlName="Password" id="loginPassword" placeholder="Password" class="form-control" />
+          <div *ngIf="PasswordL.invalid && PasswordL.touched">
+            <span *ngIf="PasswordL.errors?.required" style="color: red">*Please Enter Password</span>
+          </div>
+        </div>
+
+        <div class="btn-contain">
+            <button type="submit" [disabled]="LoginForm.invalid"  class="btn btn-primary btn-block mb-4">Login</button>
+        </div>
+        <!-- Submit button -->
+      
+ 
+      </form>
+    </div>
+    <div class="tab-pane fade" [ngClass]="{active:ActiveTabRegister,show:ActiveTabRegister}" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+      <form [formGroup]="RegisterForm" (submit)="Register()">
+  
+        <!-- Username input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="registerUsername">Username</label>
+          <input type="text" id="registerUsername" formControlName="UserName" placeholder="Enter user Name" class="form-control" />
+          <div *ngIf="UserNameR.invalid && UserNameR.touched">
+            <span *ngIf="UserNameR.errors?.required" style="color: red">*Please Enter UserName</span>
+          </div>
+        </div>
+  
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="registerEmail">Email</label>
+          <input type="email" id="registerEmail" formControlName="Email" placeholder="Email" class="form-control" />
+          <div *ngIf="EmailR.invalid && EmailR.touched">
+            <span *ngIf="EmailR.errors?.required" style="color: red">*Please Enter Email</span>
+            <span *ngIf="EmailR.errors?.email" style="color: red">*Enter valid Email</span>
+          </div>
+        </div>
+  
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="registerPassword">Password</label>
+          <input type="password" id="registerPassword" formControlName="Password" placeholder="Password" class="form-control" />
+          <div *ngIf="PasswordR.invalid && PasswordR.touched">
+            <span *ngIf="PasswordR.errors?.required" style="color: red">*Please Enter Password</span>
+          </div>
+        </div>
+  
+        <div class="btn-contain">
+        <!-- Submit button -->
+        <button type="submit" [disabled]="RegisterForm.invalid" class="btn btn-primary btn-block mb-3">Register</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- Pills content -->
+
+</div>

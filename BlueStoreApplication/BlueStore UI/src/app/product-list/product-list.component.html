@@ -1,0 +1,22 @@
+
+<div class="main-card-container">
+    <diV class="productHeading">
+        <h1>{{ProtuctType}} Products</h1>
+    </diV>
+    <div class="cards" *ngFor="let dataItem of ProductList" [ngClass]="{'cards-hover':HighlightPro == dataItem.productID}">
+        <div class="cards-image">
+            <img src="{{PhotoUrl+dataItem.productPicFileName}}">
+        </div>
+        <div class="cards-title">
+            <h1 >{{dataItem.productName}}</h1>
+        </div>
+        <div class="des">
+            <h2 style="color:red">{{dataItem.price | currency:'INR'}}</h2>
+            <button (click)="BuyNow(dataItem.productID,dataItem.productName,dataItem.price)">Buy Now</button>
+            <button (click)="AddCart(dataItem.productID,dataItem.productName)">Add To Cart</button>
+        </div>
+    </div>
+    <!-- <div *ngIf="ProductList.length == 0">
+        <h1>No Products Available</h1>
+    </div> -->
+</div>
